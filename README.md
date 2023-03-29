@@ -6,8 +6,8 @@ Nesse desafio você tem a responsabilidade de criar uma biblioteca que contem um
 
 # Requisitos
 - Crie um cliente de email em Go que receberá os seguintes provedores:
-    - Sendgrid
-    - AWS SES
+    - [Sendgrid](https://github.com/sendgrid/sendgrid-go)
+    - [AWS SES](https://docs.aws.amazon.com/sdk-for-go/v1/developer-guide/using-ses-with-go-sdk.html)
 - Provider "Null" que retorna sempre verdadeiro simulando um envio
 - O cliente aceita os providers em qualquer ordem
 - O cliente utiliza cada provider em ordem até que o e-mail seja disparado por um deles.
