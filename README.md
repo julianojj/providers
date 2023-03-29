@@ -14,4 +14,6 @@ Nesse desafio você tem a responsabilidade de criar uma biblioteca que contem um
 - Tenha em mente que no futuro novos providers podem ser adicionados ao cliente.
 
 # Design patterns
-Foi aplicando 2 padrões de projetos, adapters e factory method
+Foi aplicando 2 design patterns, adapters e factory method
+- Factory Method, gera a intância de um provider baseada no providerName
+- Adapters, permite conectar um novo client apenas implementando o provider
